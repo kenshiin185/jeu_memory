@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+   
+}
+.game {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1280px;
+    margin: auto;
+    margin-top: 50px;
+   
+}
+.card {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    font-size: 4em;
+    margin: 5px;
+    transition: .4s;
+}
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: .4s;
+    box-shadow: 5px 5px 12px black;
+    background-color: rgba(42, 235, 68, 0.459);
+    background-image: url('../assets/quest.png');
+    background-size: cover;
+}
+.red {
+    color: red;
+}
+.hidden {
+    color: transparent;
+}
+h1 {
+    font-size: 5em;
+    color: rgb(160, 76, 4);
+    width: auto;
+    text-align: center  ;
+}
+.msgWin {
+    font-size: 5em;
+    width: auto;
+    text-align: center;
+    color: springgreen;
+}
+.btn {
+    width: auto;
+    padding: 15px;
+    font-size: 3em;
+    background-color: rgb(212, 194, 30);
+    color: aliceblue;
+    border-radius: 55px;
+    border: none;
+    margin: auto;
+    margin-top: 50px;
+    transition: .4s;
+}
+.btn:hover {
+    cursor: pointer;
+    transition: .4s;
+    transform: scale(1.02);
+    box-shadow: 8px 8px 12px black;
+}
+.wrapper {
+    background-image: url('../assets/fruits_hiver.jpg');
+    background-size: cover;
+    height: 100vh;
+}
